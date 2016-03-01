@@ -96,8 +96,11 @@ section.faq {
 footer.footer {
   margin: 0;
   padding: 2em 0;
-  background-color: #006891; }
+  background-color: #006891;}
 
+b {
+  text-transform: uppercase;
+}
 .arrow {
   bottom: 0;
   width: 40px;
@@ -125,5 +128,3 @@ footer.footer {
   margin:auto;
   display:block;
 }
-
-/*# sourceMappingURL=style.css.map */
