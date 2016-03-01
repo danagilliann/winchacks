@@ -9,8 +9,51 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/animate.css">
   </head>
-  <body>
-      <section class="home row col-md-12">
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+               <div class="container">
+
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Flawless Hacks</a>
+            </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#schedule">Schedule</a>
+                    </li>
+
+                    <li>
+                        <a class="page-scroll" href="#sponsor">Sponsors</a>
+                    </li>
+
+                    <li>
+                        <a class="page-scroll" href="#faq">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+
+          </div>
+
+
+    <!-- /.container -->
+</nav>
+
+      <section class="home row col-md-12" id = "#">
       <img src = "assets/images/logo-white.png" class="animated fadeInUp"width = "300px">
       <h3>April 16, 2016</h3>
       <h3>9:30AM  - 10:00PM</h3>
@@ -18,20 +61,20 @@
       <br>
       <button>RSVP</button>
       <br>
-      <div class = "arrow"></div>
+    <a class="page-scroll" href="#about">  <div class = "arrow"></div></a>
     </section>
 
-    <section class="about row col-md-12">
+    <section class="about row col-md-12" id = "about">
       <img src = "assets/images/flawless-white.png" class="animated fadeInDown" width = "300px">
       <h2> A Hackathon For Women By Women</h2><br>
       NYU WinC is the largest community of technical women at NYU,
       with over 200 members. At FlawlessHacks we will bring together over
       100 women engineers from the greater New York area and from colleges
-      such as NYU, Columbia, Barnard, Pace, and Cooper Union for a day of coding, mentorship and awesome projects! 
+      such as NYU, Columbia, Barnard, Pace, and Cooper Union for a day of coding, mentorship and awesome projects!
     </section>
 
 
-    <section class="schedule row col-md-12">
+    <section class="schedule row col-md-12" id = "schedule">
       <h2>SCHEDULE</h2>
       <br>
       <h4>Saturday, April 16th:</h4>
@@ -44,7 +87,7 @@
     </section>
 
 
-    <section class="sponsors row col-md-12">
+    <section class="sponsors row col-md-12" id = "sponsor">
       <h2>Thanks to our <span color = "light-red">sponsors</span></h2>
       <div>
       <div class="sponsor"><img src = "assets/sponsors/google.png"></div>
@@ -53,10 +96,10 @@
       Interested in sponsoring? More details <a href ="assets/sponsors/whysponsor.pdf">here</a>
     </section>
 
-    <section class="faq row col-md-12">
+    <section class="faq row col-md-12" id = "faq">
       <h2> FREQUENTLY ASKED QUESTIONS</h2>
       <br>
-<div style="max-width: 450px;">      
+<div style="max-width: 450px;">
 <b>Who can attend?</b>
 <p>All undergraduate and graduate students from any school are welcome.
 If you are under 18, we’ll need a parental consent form.</p><br>
@@ -92,5 +135,12 @@ If you are under 18, we’ll need a parental consent form.</p><br>
       <img src = "assets/images/flawless.png" width = "180px">
       <p style="font-size:9px">2016</p>
     </footer>
+
+    <!-- jQuery -->
+  <script src="assets/jquery.js"></script>
+
+  <!-- Scrolling Nav JavaScript -->
+  <script src="assets/jquery.easing.min.js"></script>
+  <script src="assets/scrolling-nav.js"></script>
   </body>
 </html>

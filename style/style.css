@@ -7,7 +7,7 @@ body {
   background-color: #1bb996;
   font-family: "Merriweather";
   font-weight: 200;
-  font-size: 14px; 
+  font-size: 14px;
   text-align: center;
   line-height: 1.7em;}
 
@@ -17,7 +17,7 @@ a, a:link, a:visited, a:hover, a:active {
   text-decoration: none; }
 
 h1, h3, p {
-  color: white; 
+  color: white;
 }
 
 h1 {
@@ -130,8 +130,32 @@ b {
   background-color: white;
 }
 .sponsor img {
-  max-width:100%; 
+  max-width:100%;
   max-height:100%;
   margin:auto;
   display:block;
+}
+
+.navbar {
+  color:white;
+    min-height: 80px;
+}
+.navbar-brand {
+  color:white;
+
+    padding:0px;
+        padding-top:10px;
+
+}
+.navbar-fixed-top {
+    color:white;
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0,0,0,0.0);
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background-color:transparent;
 }
