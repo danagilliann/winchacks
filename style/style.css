@@ -63,9 +63,22 @@ section.home {
   padding: 3em 0 8em;
   background-color: #00bd98; }
 
+section.about {
+  margin: 0;
+  color: white;
+  padding: 5em 20em 5em;
+  background-color: #E08A1E; }
+
 footer.footer {
   margin: 0;
   padding: 2em 0;
   background-color: #E29C45; }
+
+.arrow {
+  bottom: 0;
+  width: 40px;
+  height: 40px;
+  background-image: url(assets/images/arrow.png);
+  background-size: contain; }
 
 /*# sourceMappingURL=style.css.map */
