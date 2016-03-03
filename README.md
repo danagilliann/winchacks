@@ -1,4 +1,4 @@
-#Site for Flawless Hacks, April 16th 2016
+#Site for Flawless Hacks, April 16th 2016 
 
 ###TODO:
 - Sponsorship
@@ -20,5 +20,5 @@ git checkout master // return to the master branch
 sass --watch sass:style
 ```
 ###Production
-View site [here](http://danagilliann.me/winchacks/)
+View site [here](http://flawlesshacks.com)
 ###### :fire: :tada: :sparkles: :100:
